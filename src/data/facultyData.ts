@@ -1,0 +1,128 @@
+import { FacultyMember } from '../types';
+
+export const FACULTY_MEMBERS: FacultyMember[] = [
+  {
+    id: 'fac-1',
+    name: 'Dr. Evelyn Montgomery',
+    title: 'Chair of Science Department & AP Biology Lead',
+    department: 'Sciences',
+    qualification: 'Ph.D. Cellular & Molecular Biology (UC Berkeley), M.S. (Stanford)',
+    experienceYears: 16,
+    bio: 'Former research fellow at the Salk Institute. Passionate about empowering students through empirical genomics research and biotechnology labs.',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
+    email: 'e.montgomery@oakridgeacademy.edu',
+    subjectsTaught: ['AP Biology', 'Genetics & Biotechnology', 'IB Bio HL'],
+    awards: 'National Science Teaching Excellence Award 2024'
+  },
+  {
+    id: 'fac-2',
+    name: 'Prof. David K. Sterling',
+    title: 'Head of Mathematics & Olympiad Coach',
+    department: 'Mathematics',
+    qualification: 'M.Sc. Pure Mathematics (Cambridge), B.Sc. (Oxford)',
+    experienceYears: 19,
+    bio: 'Author of two textbooks on contest mathematics. Coached the Oakridge Math Olympiad team to three consecutive regional championships.',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80',
+    email: 'd.sterling@oakridgeacademy.edu',
+    subjectsTaught: ['Multivariable Calculus', 'IB Math Analysis HL', 'Linear Algebra'],
+    awards: 'Distinguished Educator in Mathematics 2023'
+  },
+  {
+    id: 'fac-3',
+    name: 'Dr. Maya Lin-Thornton',
+    title: 'Director of Computer Science & Robotics',
+    department: 'Sciences',
+    qualification: 'Ph.D. Robotics & AI (Carnegie Mellon), B.S. EECS (MIT)',
+    experienceYears: 12,
+    bio: 'Ex-Google robotics engineer who champions accessible AI literacy and leads our FIRST Robotics World Championship qualifier team.',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80',
+    email: 'm.lin@oakridgeacademy.edu',
+    subjectsTaught: ['AI & Neural Networks', 'Advanced Python Data Science', 'Competitive Robotics'],
+    awards: 'Silicon Valley Educator of the Year 2025'
+  },
+  {
+    id: 'fac-4',
+    name: 'Julian Vance, M.A.',
+    title: 'Chair of Humanities & World History',
+    department: 'Humanities & Languages',
+    qualification: 'M.A. Modern European History (Columbia), B.A. (Princeton)',
+    experienceYears: 14,
+    bio: 'Socratic seminar facilitator who inspires students to critically evaluate historical narratives, constitutional systems, and global ethics.',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+    email: 'j.vance@oakridgeacademy.edu',
+    subjectsTaught: ['AP European History', 'Comparative Politics', 'Global Ethics Seminar'],
+    awards: 'National Endowment for the Humanities Teacher Fellow'
+  },
+  {
+    id: 'fac-5',
+    name: 'Madame Claire Delacroix',
+    title: 'Lead of Romance Languages & French Literature',
+    department: 'Humanities & Languages',
+    qualification: 'Agrégation de Lettres Modernes (Sorbonne Université, Paris)',
+    experienceYears: 15,
+    bio: 'Native Parisian dedicated to immersive francophone literature, theater production, and bilingual Model UN delegation coaching.',
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80',
+    email: 'c.delacroix@oakridgeacademy.edu',
+    subjectsTaught: ['French AP Literature', 'IB French B HL', 'Francophone Cinema'],
+  },
+  {
+    id: 'fac-6',
+    name: 'Maestro Alberto Rossi',
+    title: 'Director of Orchestral Studies & Fine Arts',
+    department: 'Arts & Music',
+    qualification: 'M.M. Conducting & Cello (Juilliard School)',
+    experienceYears: 22,
+    bio: 'Former associate conductor of the Philharmonia. Directs our 75-piece Symphony Orchestra and chamber music ensembles.',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80',
+    email: 'a.rossi@oakridgeacademy.edu',
+    subjectsTaught: ['Symphony Orchestra', 'AP Music Theory', 'Chamber Ensembles'],
+    awards: 'Grammy Music Educator Semifinalist'
+  },
+  {
+    id: 'fac-7',
+    name: 'Elena Rostova',
+    title: 'Studio Arts & Digital Media Faculty',
+    department: 'Arts & Music',
+    qualification: 'MFA Fine Arts (Rhode Island School of Design - RISD)',
+    experienceYears: 10,
+    bio: 'Practicing visual artist whose students consistently achieve 100% 5/5 scores on AP 2D and 3D Studio Art portfolios.',
+    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80',
+    email: 'e.rostova@oakridgeacademy.edu',
+    subjectsTaught: ['AP Studio Art 2D/3D', 'Digital Illustration', 'Ceramics & Sculpture'],
+  },
+  {
+    id: 'fac-8',
+    name: 'Coach Marcus Bradley',
+    title: 'Athletic Director & Varsity Track Coach',
+    department: 'Physical Education & Athletics',
+    qualification: 'M.S. Exercise Physiology (Penn State), Former Olympic Trials Qualifier',
+    experienceYears: 18,
+    bio: 'Instills lifelong dedication to sportsmanship, tactical discipline, and physical wellness across all 18 varsity athletic programs.',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80',
+    email: 'm.bradley@oakridgeacademy.edu',
+    subjectsTaught: ['Varsity Athletics', 'Kinesiology & Nutrition', 'Strength & Conditioning'],
+    awards: 'State Athletic Director of the Year'
+  },
+  {
+    id: 'fac-9',
+    name: 'Dr. Sarah Jenkins, Psy.D.',
+    title: 'Lead School Psychologist & Wellness Counselor',
+    department: 'Student Counseling',
+    qualification: 'Psy.D. Clinical Psychology (Stanford University)',
+    experienceYears: 13,
+    bio: 'Leads our mindfulness and emotional well-being initiative, peer counseling groups, and executive functioning skill seminars.',
+    image: 'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=600&q=80',
+    email: 's.jenkins@oakridgeacademy.edu',
+    subjectsTaught: ['Mindfulness Practicum', 'Social Emotional Resilience'],
+  }
+];
+
+export const FACULTY_DEPARTMENTS = [
+  'All Departments',
+  'Sciences',
+  'Mathematics',
+  'Humanities & Languages',
+  'Arts & Music',
+  'Physical Education & Athletics',
+  'Student Counseling'
+] as const;

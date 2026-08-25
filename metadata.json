@@ -1,0 +1,6 @@
+{
+  "name": "Oakridge International Academy",
+  "description": "A modern, responsive school website featuring comprehensive academics, admissions, faculty directory, facilities, news, events, and campus gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
