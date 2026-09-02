@@ -48,7 +48,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: 'academics', label: 'Academics' },
     { id: 'admissions', label: 'Admissions', highlight: true },
     { id: 'faculty', label: 'Faculty' },
-    { id: 'facilities', label: 'Facilities' },
+    // { id: 'facilities', label: 'Facilities' },
     { id: 'gallery', label: 'Gallery' },
     // { id: 'news-events', label: 'News & Events' },
     { id: 'contact', label: 'Contact' },
@@ -86,7 +86,7 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Admissions: {SCHOOL_INFO.admissionsPhone}</span>
             </a>
 
-            <span className="text-slate-700">|</span>
+            {/* <span className="text-slate-700">|</span>
 
             <button
               onClick={onOpenTour}
@@ -94,7 +94,7 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <Calendar className="w-3.5 h-3.5 text-amber-500" />
               <span>Book Tour</span>
-            </button>
+            </button> */}
 
             <span className="text-slate-700">|</span>
 

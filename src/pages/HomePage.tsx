@@ -77,21 +77,21 @@ export const HomePage: React.FC<HomePageProps> = ({
               <ArrowRight className="w-5 h-5" />
             </button>
 
-            <button
+            {/* <button
               onClick={onOpenTour}
               className="px-6 py-3.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-700 text-white font-semibold text-base backdrop-blur-sm transition-all flex items-center gap-2.5 shadow-md"
             >
               <Compass className="w-5 h-5 text-amber-400" />
               <span>Interactive Virtual Tour</span>
-            </button>
+            </button> */}
 
-            <button
+            {/* <button
               onClick={onOpenScheduleTour}
               className="px-6 py-3.5 rounded-xl bg-transparent hover:bg-white/10 border border-slate-600 text-slate-200 font-semibold text-base transition-all flex items-center gap-2"
             >
               <Calendar className="w-5 h-5 text-amber-400" />
               <span>Schedule Campus Visit</span>
-            </button>
+            </button> */}
           </div>
 
           {/* Quick Accreditations Pill */}
