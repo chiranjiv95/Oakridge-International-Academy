@@ -140,11 +140,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
                   Photo & Media Gallery
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button onClick={() => handleNav('news-events')} className="hover:text-white transition-colors">
                   News & Calendar
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
 
