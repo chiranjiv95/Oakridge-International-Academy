@@ -36,10 +36,17 @@ export const HomePage: React.FC<HomePageProps> = ({
       <section className="relative min-h-[90vh] flex items-center justify-center bg-slate-950 text-white overflow-hidden">
         {/* Background photo with subtle zoom and dark overlay */}
         <div className="absolute inset-0 z-0">
+          {/* Old banner image:
           <img
             src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=80"
             alt="Malda Government Model Madrasah Campus Quadrangle"
             className="w-full h-full object-cover opacity-35 filter brightness-90"
+          /> */}
+          <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmA47jdAhqBnR3Q8-QaQnPfHs1AQDCjQbfdFRGCzKy1CJLVzNSbosfv4alxmrNgzGf-iav1KA8kWkRBchs0DmbpLT5GlzDUrAD7eFUr4G1CB5R02ZYs1dOyT2SgboClxVsCwcUSeA=s680-w680-h510-rw"
+            alt="Malda Government Model Madrasah Campus Building"
+            referrerPolicy="no-referrer"
+            className="w-full h-full object-cover opacity-50 filter brightness-95"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" />
           <div className="absolute inset-0 bg-radial from-transparent via-slate-950/40 to-slate-950" />
