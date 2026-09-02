@@ -70,7 +70,7 @@ export const FacultyPage: React.FC<FacultyPageProps> = ({
           <div className="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm mb-12 space-y-6">
             
             {/* Search Input */}
-            <div className="relative max-w-md">
+            {/* <div className="relative max-w-md">
               <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" />
               <input
                 type="text"
@@ -79,7 +79,7 @@ export const FacultyPage: React.FC<FacultyPageProps> = ({
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white text-sm focus:ring-2 focus:ring-amber-500 focus:outline-none"
               />
-            </div>
+            </div> */}
 
             {/* Department Filter Pills */}
             <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
@@ -105,7 +105,7 @@ export const FacultyPage: React.FC<FacultyPageProps> = ({
             </div>
 
             <div className="flex items-center justify-between text-xs text-slate-500">
-              <span>Showing {filteredFaculty.length} educators</span>
+              {/* <span>Showing {filteredFaculty.length} educators</span> */}
               {(searchQuery || selectedDepartment !== 'All Departments') && (
                 <button
                   onClick={() => {

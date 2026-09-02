@@ -212,7 +212,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* 4. Pillars of Excellence */}
-      <section className="py-20 sm:py-28 bg-white dark:bg-slate-900 border-y border-slate-200/80 dark:border-slate-800">
+      {/* <section className="py-20 sm:py-28 bg-white dark:bg-slate-900 border-y border-slate-200/80 dark:border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Pillars of Excellence"
@@ -262,7 +262,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 5. Announcements & Notice Board */}
       <section className="py-16 bg-slate-900 text-white">
@@ -476,7 +476,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* 9. Testimonials */}
-      <section className="py-20 sm:py-28 bg-white dark:bg-slate-900 border-t border-slate-200/80 dark:border-slate-800">
+      {/* <section className="py-20 sm:py-28 bg-white dark:bg-slate-900 border-t border-slate-200/80 dark:border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Community Perspectives"
@@ -519,7 +519,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 10. Call to Action Banner */}
       <section className="relative py-20 bg-gradient-to-br from-slate-950 via-slate-900 to-amber-950 text-white overflow-hidden">
@@ -543,13 +543,14 @@ export const HomePage: React.FC<HomePageProps> = ({
               <span>Submit Admission Inquiry</span>
               <ArrowRight className="w-5 h-5" />
             </button>
-            <button
+
+            {/* <button
               onClick={onOpenScheduleTour}
               className="px-7 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-semibold text-base transition-all flex items-center gap-2"
             >
               <Calendar className="w-5 h-5 text-amber-400" />
               <span>Book In-Person Tour</span>
-            </button>
+            </button> */}
           </div>
         </div>
       </section>

@@ -70,9 +70,9 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
             })}
           </div>
 
-          <div className="text-xs text-slate-500 mb-6 text-center">
+          {/* <div className="text-xs text-slate-500 mb-6 text-center">
             Showing {filteredItems.length} curated photographs • Click any image to view in full-screen Lightbox
-          </div>
+          </div> */}
 
           {/* Photo Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

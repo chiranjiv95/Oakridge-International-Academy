@@ -96,15 +96,15 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Book Tour</span>
             </button> */}
 
-            <span className="text-slate-700">|</span>
+            {/* <span className="text-slate-700">|</span> */}
 
-            <button
+            {/* <button
               onClick={onOpenPortals}
               className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-amber-400 font-semibold transition-colors"
             >
               <UserCheck className="w-3.5 h-3.5" />
               <span>Community Portals</span>
-            </button>
+            </button> */}
           </div>
 
         </div>
@@ -166,13 +166,13 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Right Action Icons & Apply Button */}
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Quick search button */}
-            <button
+            {/* <button
               onClick={onOpenSearch}
               className="p-2.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus:outline-none"
               title="Search website (Cmd+K)"
             >
               <Search className="w-5 h-5" />
-            </button>
+            </button> */}
 
             {/* Apply CTA */}
             <button

@@ -88,7 +88,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
               Empowering students through high-quality English-medium instruction, modern STEM laboratories, and moral character under the Department of Minority Affairs & Madrasah Education, Government of West Bengal.
             </p>
 
-            <div className="pt-2 text-xs space-y-1.5 text-slate-400">
+            {/* <div className="pt-2 text-xs space-y-1.5 text-slate-400">
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                 <span>{SCHOOL_INFO.address}</span>
@@ -101,7 +101,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
                 <Mail className="w-4 h-4 text-amber-400 shrink-0" />
                 <span>{SCHOOL_INFO.generalEmail}</span>
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links Column 1 */}
@@ -192,8 +192,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
             </ul>
           </div>
 
-          {/* Newsletter Subscription */}
-          <div className="lg:col-span-3 space-y-4">
+          {/* Newsletter Subscription (Commented out) */}
+          {/* <div className="lg:col-span-3 space-y-4">
             <h5 className="text-xs font-bold uppercase tracking-wider text-amber-400 font-sans">
               Model Madrasah Gazette
             </h5>
@@ -233,6 +233,33 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
                 Affiliations: WBBME • WBCHSE • Dept. of Minority Affairs & Madrasah Education, Govt. of West Bengal
               </p>
             </div>
+          </div> */}
+
+          {/* Contact & Address Info */}
+          <div className="lg:col-span-3 space-y-4">
+            <h5 className="text-xs font-bold uppercase tracking-wider text-amber-400 font-sans">
+              Contact & Address
+            </h5>
+            <div className="space-y-3 text-xs text-slate-400">
+              <p className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <span className="leading-relaxed">Chandan Park, P.O. English Bazar, District - Malda, West Bengal 732101, India</span>
+              </p>
+              <p className="flex items-center gap-2.5">
+                <Phone className="w-4 h-4 text-amber-400 shrink-0" />
+                <span>+91 (03512) 220422 (Main Desk)</span>
+              </p>
+              <p className="flex items-center gap-2.5">
+                <Mail className="w-4 h-4 text-amber-400 shrink-0" />
+                <span>info@maldamodelmadrasah.edu.in</span>
+              </p>
+            </div>
+
+            <div className="pt-2">
+              <p className="text-[11px] text-slate-500">
+                Affiliations: WBBME • WBCHSE • Dept. of Minority Affairs & Madrasah Education, Govt. of West Bengal
+              </p>
+            </div>
           </div>
 
         </div>
@@ -242,12 +269,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
           <p>© {new Date().getFullYear()} {SCHOOL_INFO.name}. All Rights Reserved.</p>
           <div className="flex items-center gap-6">
             <span className="hover:text-slate-400 cursor-pointer">Privacy Policy</span>
+            {/* <span>•</span>
+            <span className="hover:text-slate-400 cursor-pointer">Government Portal Disclaimers</span> */}
             <span>•</span>
-            <span className="hover:text-slate-400 cursor-pointer">Government Portal Disclaimers</span>
-            <span>•</span>
+            <span className="hover:text-slate-400 cursor-pointer">Terms & Conditions</span>
+            {/* <span>•</span>
             <span className="hover:text-slate-400 cursor-pointer">RTI & Disclosures</span>
             <span>•</span>
-            <span className="hover:text-slate-400 cursor-pointer">Helpline: {SCHOOL_INFO.emergencyHotline}</span>
+            <span className="hover:text-slate-400 cursor-pointer">Helpline: {SCHOOL_INFO.emergencyHotline}</span> */}
           </div>
         </div>
 

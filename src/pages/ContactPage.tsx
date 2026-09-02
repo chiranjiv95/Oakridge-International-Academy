@@ -131,7 +131,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               </div>
 
               {/* Department Contact Directory */}
-              <div className="p-6 rounded-3xl bg-slate-900 text-white border border-slate-800 space-y-4">
+              {/* <div className="p-6 rounded-3xl bg-slate-900 text-white border border-slate-800 space-y-4">
                 <h4 className="font-serif font-bold text-base text-amber-400">Departmental Desks</h4>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
@@ -152,7 +152,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                     <p className="text-slate-400 mt-0.5">{SCHOOL_INFO.emergencyHotline}</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
 
