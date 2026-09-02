@@ -48,7 +48,7 @@ export const AcademicsPage: React.FC<AcademicsPageProps> = ({
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge Academics"
+            alt="Malda Model Madrasah Academics"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />

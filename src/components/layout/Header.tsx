@@ -132,13 +132,13 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-slate-900 dark:text-white leading-tight">
-                  Oakridge Academy
+                <span className="font-serif text-base sm:text-lg lg:text-xl font-bold tracking-tight text-slate-900 dark:text-white leading-tight">
+                  {SCHOOL_INFO.shortName}
                 </span>
-                <Award className="w-4 h-4 text-amber-500" />
+                <Award className="w-4 h-4 text-amber-500 shrink-0" />
               </div>
-              <p className="text-[11px] font-medium tracking-wide uppercase text-slate-500 dark:text-slate-400">
-                International School • Est. 1988
+              <p className="text-[10px] sm:text-[11px] font-semibold tracking-wide uppercase text-amber-700 dark:text-amber-400">
+                Govt. of West Bengal • English Medium
               </p>
             </div>
           </button>

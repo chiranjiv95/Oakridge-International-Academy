@@ -32,7 +32,7 @@ export const FacilitiesPage: React.FC<FacilitiesPageProps> = ({
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge Campus Facilities"
+            alt="Malda Model Madrasah Campus Facilities"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />
@@ -40,13 +40,13 @@ export const FacilitiesPage: React.FC<FacilitiesPageProps> = ({
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold uppercase tracking-wider mb-4">
-            <Building className="w-3.5 h-3.5" /> 32-Acre Innovation Campus
+            <Building className="w-3.5 h-3.5" /> 15-Acre Green Model Campus
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif text-white tracking-tight">
             Campus Infrastructure & Facilities
           </h1>
           <p className="mt-4 text-base sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Architecturally designed to maximize natural daylight, empirical inquiry, creative inspiration, and athletic distinction in a sustainable, net-zero environment.
+            State-of-the-art composite science labs, high-tech ICT computing hubs, smart interactive classrooms, and extensive sports infrastructure.
           </p>
 
           <div className="mt-8 flex justify-center">
@@ -172,9 +172,9 @@ export const FacilitiesPage: React.FC<FacilitiesPageProps> = ({
                 <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-4">
                   <Leaf className="w-5 h-5" />
                 </div>
-                <h4 className="text-xl font-bold font-serif">100% Net-Zero Sustainable Campus</h4>
+                <h4 className="text-xl font-bold font-serif">Eco-Friendly & Solar Powered Campus</h4>
                 <p className="mt-2 text-xs sm:text-sm text-slate-300 leading-relaxed">
-                  Oakridge is LEED Platinum certified. Our rooftop solar arrays, rainwater reclamation gardens, and on-site organic greenhouse provide students with daily experiential environmental lessons.
+                  Malda Model Madrasah incorporates rooftop solar installations, green botanical gardens, and energy-efficient LED smart classrooms to nurture environmental consciousness in learners.
                 </p>
               </div>
             </div>

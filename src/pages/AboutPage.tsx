@@ -37,10 +37,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({
             <Compass className="w-3.5 h-3.5" /> Our Heritage & Philosophy
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif text-white tracking-tight">
-            About Oakridge International Academy
+            About {SCHOOL_INFO.name}
           </h1>
           <p className="mt-4 text-base sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Founded on the ideals of fearless intellectual exploration, ethical stewardship, and international mindedness, we prepare students to lead with clarity, competence, and empathy.
+            A flagship English-medium government model institution under the Department of Minority Affairs & Madrasah Education, Government of West Bengal, combining modern scientific inquiry, digital literacy, and moral character.
           </p>
         </div>
       </section>
@@ -60,12 +60,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({
                   Our Vision
                 </h3>
                 <p className="mt-4 text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                  To be an internationally recognized pinnacle of academic excellence where students from all cultures are ignited to discover their passions, master analytical rigor, and courageously transform society through ethical innovation and humanistic leadership.
+                  To provide accessible, high-caliber English-medium education in Malda that empowers every student with modern scientific knowledge, critical thinking, technological proficiency, and ethical leadership to shine on state and national platforms.
                 </p>
               </div>
 
               <div className="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 flex items-center gap-2 text-xs font-bold text-amber-600 dark:text-amber-400">
-                <span>Ad Astra Per Aspera — Through Hardship to the Stars</span>
+                <span>Knowledge, Character and Excellence</span>
               </div>
             </div>
 
@@ -79,12 +79,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({
                   Our Mission
                 </h3>
                 <p className="mt-4 text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                  Oakridge International Academy educates the whole person in a supportive, intellectually stimulating community. We challenge students to think critically, communicate articulately across cultural boundaries, uphold integrity, and assume proactive responsibility for their environment and fellow human beings.
+                  {SCHOOL_INFO.name} is dedicated to nurturing holistic growth through interactive smart classrooms, state-of-the-art science laboratories, complete English immersion, and 100% government scholarship enablement, ensuring no meritorious student is left behind.
                 </p>
               </div>
 
               <div className="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 flex items-center gap-2 text-xs font-bold text-blue-600 dark:text-blue-400">
-                <span>Inquiry • Compassion • Character • Global Impact</span>
+                <span>Scientific Temper • Multilingual Fluency • Moral Integrity</span>
               </div>
             </div>
 
@@ -98,7 +98,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
           <SectionHeading
             badge="Institutional Character"
             title="The Core Values that Guide Our Community"
-            subtitle="These enduring principles anchor every classroom discussion, athletic endeavor, and social initiative at Oakridge."
+            subtitle="These enduring principles anchor every classroom discussion, laboratory experiment, and athletic activity at Malda Model Madrasah."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -144,25 +144,25 @@ export const AboutPage: React.FC<AboutPageProps> = ({
 
             <div className="lg:col-span-8 space-y-5">
               <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                Head of School Address
+                Headmaster's Address
               </span>
               
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-serif text-white leading-tight">
-                "We do not merely teach students what to think; we empower them with how to think."
+                "We cultivate scientific curiosity, linguistic fluency, and timeless moral integrity."
               </h3>
 
               <div className="space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
                 <p>
-                  Dear Prospective Families, Students, and Friends:
+                  Dear Prospective Students, Guardians, and Well-Wishers:
                 </p>
                 <p>
-                  For over three decades, Oakridge has stood as a beacon of uncompromising academic rigor, creative fearlessness, and deep moral purpose. In a rapidly evolving world transformed by artificial intelligence and shifting geopolitical landscapes, the true value of education lies not simply in test scores, but in cultivating intellectual agility, ethical conviction, and the capacity for deep human empathy.
+                  Malda Government Model Madrasah (English Medium) stands as a proud milestone in public education under the Department of Minority Affairs & Madrasah Education, Government of West Bengal. We believe that quality English-medium education combined with strong ethical roots and modern scientific training is the ultimate engine for individual and societal upliftment.
                 </p>
                 <p>
-                  Walking through our hallways, you will see Grade 4 students coding robotic environmental probes, Grade 8 scholars debating constitutional liberties in the Socratic style, and high school seniors defending original bioinformatics dissertations. Yet alongside these milestones, you will find a culture where kindness is cherished, where diverse viewpoints are respectfully engaged, and where every child is personally known and championed.
+                  Inside our smart classrooms and composite laboratories, our students conduct advanced physics and chemistry experiments, master competitive mathematics, engage in eloquent English debates, and learn computer programming in Python. At the same time, we ensure 100% scholarship coverage under Aikyashree, Kanyashree, and SVMCM schemes so that every child can realize their dream of becoming doctors, engineers, researchers, and civil servants.
                 </p>
                 <p className="font-serif italic text-amber-300">
-                  I warmly invite you to visit our campus, observe our seminars, and experience the Oakridge spirit firsthand.
+                  I warmly welcome you to visit our green 15-acre campus at Chandan Park, Malda, and witness our academic transformation.
                 </p>
               </div>
 
@@ -171,14 +171,14 @@ export const AboutPage: React.FC<AboutPageProps> = ({
                   onClick={onOpenScheduleTour}
                   className="px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition-colors flex items-center gap-2"
                 >
-                  <span>Book a Meeting & Campus Tour</span>
+                  <span>Book Campus Visit</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <a
                   href={`mailto:${LEADERSHIP_TEAM[0].email}`}
                   className="px-5 py-3 rounded-xl border border-slate-700 hover:bg-slate-800 text-white font-medium text-sm transition-colors"
                 >
-                  Contact the Principal's Desk
+                  Contact Headmaster's Desk
                 </a>
               </div>
             </div>
@@ -193,7 +193,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
           <SectionHeading
             badge="Our Journey"
             title="Milestones of Growth & Distinction"
-            subtitle="From our humble founding in 1988 with 65 students to a globally celebrated 32-acre international research campus."
+            subtitle="Tracing our journey from historic establishment in Malda to a modern English-medium government model madrasah."
           />
 
           <div className="relative border-l-2 border-amber-500/30 ml-4 sm:ml-32 space-y-12 py-4">
@@ -232,32 +232,32 @@ export const AboutPage: React.FC<AboutPageProps> = ({
       <section className="py-20 bg-slate-50 dark:bg-slate-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            badge="Global Standing"
-            title="Accreditations & International Affiliations"
-            subtitle="Oakridge Academy maintains the highest standards of international institutional accreditation and global curricular authorization."
+            badge="Statutory Standing"
+            title="Government Recognition & Board Affiliations"
+            subtitle="Malda Government Model Madrasah operates under the full statutory authority of the Government of West Bengal."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                name: 'IB World Continuum School',
-                desc: 'Fully authorized for the Primary Years (PYP), Middle Years (MYP), and Diploma Programme (IBDP).',
-                badge: 'IB World School'
+                name: 'West Bengal Board of Madrasah Education',
+                desc: 'Statutory recognized curriculum for Upper Primary and High Madrasah (Secondary) board examinations.',
+                badge: 'WBBME Recognized'
               },
               {
-                name: 'Council of International Schools (CIS)',
-                desc: 'Accredited with distinction for high standards of educational quality and child protection safeguarding.',
-                badge: 'CIS Member'
+                name: 'WBCHSE (Higher Secondary Council)',
+                desc: 'Authorized (10+2) Higher Secondary curriculum in Science, Arts, and Commerce streams in English medium.',
+                badge: 'WBCHSE Affiliated'
               },
               {
-                name: 'Cambridge International Assessment',
-                desc: 'Authorized examination center for Cambridge IGCSE and International A-Levels qualifications.',
-                badge: 'Cambridge Board'
+                name: 'Minority Affairs & Madrasah Education Dept.',
+                desc: 'Operated and funded as a flagship model institution by the Government of West Bengal.',
+                badge: 'Govt. of West Bengal'
               },
               {
-                name: 'NEASC Accreditation',
-                desc: 'New England Association of Schools and Colleges accreditation ensuring global transcript equivalency.',
-                badge: 'NEASC Member'
+                name: 'ICT @ Schools & Smart Classroom Project',
+                desc: 'Equipped with computer laboratories, high-speed broadband, and interactive digital display panels.',
+                badge: 'Digital Education'
               }
             ].map((item, idx) => (
               <div
@@ -281,7 +281,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
 
                 <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center gap-1.5 text-xs text-emerald-600 dark:text-emerald-400 font-semibold">
                   <Check className="w-4 h-4" />
-                  <span>Fully Certified & Active</span>
+                  <span>Statutory & Active</span>
                 </div>
               </div>
             ))}
@@ -289,8 +289,8 @@ export const AboutPage: React.FC<AboutPageProps> = ({
 
           <div className="mt-14 p-8 rounded-2xl bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white text-center flex flex-col sm:flex-row items-center justify-between gap-6 border border-slate-700">
             <div className="text-left">
-              <h4 className="text-xl font-bold font-serif">Explore the Academic Experience</h4>
-              <p className="text-xs text-slate-300 mt-1">Learn how our curriculum empowers scholars across every developmental tier.</p>
+              <h4 className="text-xl font-bold font-serif">Explore Our Academic Curriculum</h4>
+              <p className="text-xs text-slate-300 mt-1">Learn about our English medium science stream, smart classrooms, and NEET/JEE coaching.</p>
             </div>
             <button
               onClick={() => onNavigate('academics')}

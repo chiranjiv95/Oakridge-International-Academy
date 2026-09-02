@@ -3,194 +3,194 @@ import { AcademicDivision, Course } from '../types';
 export const ACADEMIC_DIVISIONS: AcademicDivision[] = [
   {
     id: 'primary',
-    name: 'Primary & Early Years',
-    grades: 'Pre-K to Grade 5',
-    ageGroup: 'Ages 4 – 11',
-    tagline: 'Igniting Wonder & Foundational Mastery',
-    description: 'A vibrant inquiry-driven learning environment utilizing the IB Primary Years Programme (PYP). Young learners develop reading fluency, mathematical thinking, linguistic skills, and joyful curiosity through hands-on discovery.',
+    name: 'Upper Primary Section',
+    grades: 'Classes V to VIII',
+    ageGroup: 'Ages 10 – 14',
+    tagline: 'Foundational English Mastery & Inquisitive Learning',
+    description: 'A nurturing English-medium learning environment focused on building strong conceptual foundations in Mathematics, Science, and Language Arts. Students develop analytical thinking, digital literacy, and communicative confidence.',
     image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80',
-    headOfDivision: 'Ms. Rebecca Wright, M.Ed.',
+    headOfDivision: 'Ms. Nasima Begum, M.A., B.Ed.',
     keyFeatures: [
-      'Play-based Early Childhood & Reggio Emilia inspired discovery',
-      'Dual-Language Immersion (Spanish / French / Mandarin)',
-      'Singapore Math & conceptual problem solving',
-      'Junior Maker Lab & introductory coding'
+      'Interactive Smart Classroom enabled audio-visual learning',
+      'Dual language fluency: English Medium with Bengali / Arabic / Urdu electives',
+      'Foundational Mathematics & hands-on Science laboratory discovery',
+      'ICT computer fundamentals & digital literacy programs'
     ],
-    subjects: ['Literacy & Phonics', 'Inquiry Science', 'Conceptual Mathematics', 'World Languages', 'Visual Arts & Choir', 'Physical Literacy']
+    subjects: ['English Language & Prose', 'General Science & Lab', 'Mathematics', 'Social Sciences & Civics', 'First Language (Bengali/Urdu)', 'Computer Fundamentals & Arts']
   },
   {
     id: 'middle',
-    name: 'Middle School',
-    grades: 'Grades 6 to 8',
-    ageGroup: 'Ages 11 – 14',
-    tagline: 'Bridging Curiosity with Critical Analysis',
-    description: 'The Middle Years Programme (MYP) fosters intellectual independence, structured debate, scientific investigation, and emotional resilience as students transition through vital developmental stages.',
+    name: 'Secondary / High Madrasah Section',
+    grades: 'Classes IX & X',
+    ageGroup: 'Ages 14 – 16',
+    tagline: 'Academic Rigor, Scientific Inquiry & Board Distinction',
+    description: 'Aligned with the West Bengal Board of Madrasah Education (WBBME) English-medium curriculum. Emphasizes experimental sciences, mathematical problem-solving, social sciences, and comprehensive preparation for state board examinations.',
     image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80',
-    headOfDivision: 'Dr. James Chen, Ph.D.',
+    headOfDivision: 'Dr. Manirul Haque, M.Sc., B.Ed., Ph.D.',
     keyFeatures: [
-      'Interdisciplinary STEM projects & robotics teams',
-      'Formal Socratic seminars and Model United Nations',
-      '1:1 iPad & MacBook computational thinking program',
-      'Community Service & Design thinking modules'
+      'Comprehensive Physical & Life Sciences laboratory experiments',
+      'State Science Fair participation and inter-school debate forums',
+      'Structured chapter-wise test series and board exam strategy',
+      'National Talent Search Examination (NTSE) & Olympiad coaching'
     ],
-    subjects: ['Integrated Sciences', 'Pre-Algebra & Geometry', 'Global Humanities & Civics', 'World Languages II', 'Digital Media & Design', 'Performing Arts']
+    subjects: ['Physical Science (Physics & Chem)', 'Life Science & Biology', 'Mathematics', 'English First/Second Language', 'History & Civics', 'Geography & Environment']
   },
   {
     id: 'high',
-    name: 'High School & Senior Secondary',
-    grades: 'Grades 9 to 12',
-    ageGroup: 'Ages 14 – 18',
-    tagline: 'Academic Rigor, Leadership & College Distinction',
-    description: 'Offering dual pathways through the prestigious International Baccalaureate Diploma Programme (IBDP) and Advanced Placement (AP) Capstone. Prepares scholars for premier global university admissions and real-world leadership.',
+    name: 'Higher Secondary Section (10+2)',
+    grades: 'Classes XI & XII',
+    ageGroup: 'Ages 16 – 18',
+    tagline: 'Excellence in Science & Arts with Competitive Mentorship',
+    description: 'Recognized by the West Bengal Council of Higher Secondary Education (WBCHSE). Offers specialized Science and Humanities streams in English Medium with dedicated in-house coaching for NEET, JEE Main, WBJEE, and CUET admissions.',
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80',
-    headOfDivision: 'Prof. David Vance, M.A.',
+    headOfDivision: 'Prof. S. K. Mahato, M.Sc., Ph.D.',
     keyFeatures: [
-      'Full IB Diploma & 28+ AP Capstone Courses',
-      'University-level Independent Research Fellowship',
-      'Dedicated 1:1 College Counseling starting in Grade 9',
-      'Global Internships & Silicon Valley Tech Mentorships'
+      'WBCHSE Science Stream (Physics, Chem, Math, Bio/Computer Science)',
+      'Integrated NEET / JEE / WBJEE entrance preparation modules',
+      'Advanced research-grade laboratory sessions with individual workbenches',
+      'Career counseling for premier universities (AIIMS, IITs, NITs, JU, CU)'
     ],
-    subjects: ['AP/IB Higher Sciences', 'Multivariable Calculus & Linear Algebra', 'World Literature & Rhetoric', 'Economics & World Politics', 'Applied Computer Science', 'Studio Arts AP']
+    subjects: ['Advanced Physics & Lab', 'Chemistry & Organic Synthesis', 'Calculus & Higher Mathematics', 'Biological Sciences & Genetics', 'Computer Science (Python & SQL)', 'English Core & Elective Humanities']
   }
 ];
 
 export const COURSE_CATALOG: Course[] = [
   {
     id: 'c-1',
-    code: 'SCI-401',
-    title: 'Advanced Placement Biology & Genetics',
+    code: 'SCI-PHY-12',
+    title: 'Advanced Physics & Practical Laboratory',
     division: 'high',
     department: 'Sciences',
-    description: 'In-depth molecular genetics, evolutionary biology, cellular biochemistry, and biotechnology wet lab research.',
-    credits: '1.0 Credit',
-    level: 'AP / Honors'
+    description: 'Comprehensive Mechanics, Electromagnetism, Wave Optics, Semiconductors, and hands-on laboratory experiments aligned with WBCHSE & NEET/JEE syllabus.',
+    credits: 'Core Science',
+    level: 'Higher Secondary (XI-XII)'
   },
   {
     id: 'c-2',
-    code: 'CS-302',
-    title: 'Artificial Intelligence & Machine Learning Fundamentals',
+    code: 'SCI-CHEM-12',
+    title: 'Chemistry: Organic, Inorganic & Physical Lab',
     division: 'high',
-    department: 'Computer Science',
-    description: 'Explores neural networks, Python data analytics, ethical AI frameworks, and autonomous robotics programming.',
-    credits: '1.0 Credit',
-    level: 'Advanced'
+    department: 'Sciences',
+    description: 'Thermodynamics, Chemical Kinetics, Coordination Compounds, Reaction Mechanisms, and volumetric & salt analysis lab practicals.',
+    credits: 'Core Science',
+    level: 'Higher Secondary (XI-XII)'
   },
   {
     id: 'c-3',
-    code: 'MATH-405',
-    title: 'IB Mathematics: Analysis and Approaches (HL)',
-    division: 'ib',
-    department: 'Mathematics',
-    description: 'Rigorous pure mathematics including advanced differential equations, vector spaces, and probability modeling.',
-    credits: '1.0 Credit',
-    level: 'IB Higher Level'
+    code: 'SCI-BIO-12',
+    title: 'Biological Sciences & Human Physiology',
+    division: 'high',
+    department: 'Sciences',
+    description: 'Genetics, Molecular Biology, Plant & Animal Physiology, Ecology, and micro-technique dissection lab modules with intensive NEET orientation.',
+    credits: 'Core Science',
+    level: 'Higher Secondary (XI-XII)'
   },
   {
     id: 'c-4',
-    code: 'HUM-310',
-    title: 'Comparative World Politics & International Law',
+    code: 'MATH-12',
+    title: 'Higher Mathematics & Differential Calculus',
     division: 'high',
-    department: 'Humanities',
-    description: 'Seminar analyzing constitutional models, geopolitical dynamics, United Nations simulations, and diplomatic treaties.',
-    credits: '1.0 Credit',
-    level: 'Honors'
+    department: 'Mathematics',
+    description: 'Differential and Integral Calculus, Vector Algebra, 3D Geometry, Linear Programming, and Probability modeling.',
+    credits: 'Core Science',
+    level: 'Higher Secondary (XI-XII)'
   },
   {
     id: 'c-5',
-    code: 'ART-205',
-    title: 'Digital Cinema & Visual Storytelling',
-    division: 'middle',
-    department: 'Fine Arts',
-    description: 'Hands-on cinematography, screenplay composition, digital editing suite workflow, and sound design.',
-    credits: '0.5 Credit',
-    level: 'Intermediate'
+    code: 'CS-102',
+    title: 'Computer Science & ICT (Python & Database Management)',
+    division: 'high',
+    department: 'Computer Science',
+    description: 'Object-oriented programming with Python, SQL Relational Database systems, Computer Networks, and Cyber Security fundamentals.',
+    credits: 'Elective',
+    level: 'Advanced ICT'
   },
   {
     id: 'c-6',
-    code: 'LANG-320',
-    title: 'Mandarin Chinese: Literature & Culture IV',
-    division: 'high',
-    department: 'World Languages',
-    description: 'Advanced conversational fluency, classical and contemporary Chinese literature, and business communications.',
-    credits: '1.0 Credit',
-    level: 'Advanced / AP'
+    code: 'ENG-10',
+    title: 'English Language, Rhetoric & World Literature',
+    division: 'middle',
+    department: 'Humanities & Languages',
+    description: 'Mastery of English grammar, composition, phonetics, public speaking, and analysis of classic and contemporary prose and poetry.',
+    credits: 'Core Language',
+    level: 'Secondary (IX-X)'
   },
   {
     id: 'c-7',
-    code: 'STEM-108',
-    title: 'Junior Robotics & Autonomous Rovers',
+    code: 'SCI-9',
+    title: 'Physical & Life Sciences Laboratory Foundation',
     division: 'middle',
-    department: 'Computer Science',
-    description: 'Design, build, and code autonomous sensor-guided rovers using VEX and Arduino robotics kits.',
-    credits: '0.5 Credit',
-    level: 'Foundational'
+    department: 'Sciences',
+    description: 'Fundamental principles of Motion, Heat, Atomic Structure, Living World, and scientific method through guided laboratory demonstrations.',
+    credits: 'Core Science',
+    level: 'Secondary (IX-X)'
   },
   {
     id: 'c-8',
-    code: 'SCI-210',
-    title: 'Environmental Ecology & Sustainable Systems',
-    division: 'middle',
-    department: 'Sciences',
-    description: 'Fieldwork investigation of local watersheds, urban biodiversity conservation, and renewable energy modeling.',
-    credits: '1.0 Credit',
-    level: 'Standard'
+    code: 'GEO-ENV-8',
+    title: 'Environmental Geography & Earth Systems',
+    division: 'primary',
+    department: 'Humanities & Languages',
+    description: 'Physical geography of West Bengal and India, weather systems, conservation of natural resources, and map-reading skills.',
+    credits: 'General Studies',
+    level: 'Upper Primary (V-VIII)'
   }
 ];
 
 export const CO_CURRICULAR_CLUBS = [
   {
-    name: 'Competitive Robotics (VEX & FIRST)',
+    name: 'State Science & Innovation Club',
     category: 'STEM',
-    badge: 'National Champions',
-    desc: 'Engineering autonomous competition bots, CAD design, and telemetry programming.'
+    badge: 'District & State Champions',
+    desc: 'Empirical model making, science fairs, solar energy demonstrations, and state exhibition projects.'
   },
   {
-    name: 'Model United Nations (OAK-MUN)',
+    name: 'Model Madrasah Debate & Quiz Society',
     category: 'Leadership',
-    badge: 'Global Delegate Award',
-    desc: 'Simulating global policymaking, diplomacy, and international conflict resolution.'
+    badge: 'State Inter-School Laurels',
+    desc: 'Sharpening oratory skills, parliamentary debate formats, general knowledge quizzes, and essay contests.'
   },
   {
-    name: 'Symphony Orchestra & Jazz Ensemble',
-    category: 'Fine Arts',
-    badge: 'State Honors',
-    desc: 'Performing classical masterworks, modern jazz arrangements, and chamber music.'
-  },
-  {
-    name: 'Biomedical Research Society',
+    name: 'ICT, Coding & Digital Literacy Society',
     category: 'STEM',
-    badge: 'Published Journals',
-    desc: 'Student-led empirical research investigating antibiotic resistance and genetics.'
+    badge: 'Digital India Partner',
+    desc: 'Python programming, web development basics, digital media design, and cyber safety workshops.'
   },
   {
-    name: 'Varsity Speech & Debate Team',
-    category: 'Humanities',
-    badge: 'TOC Qualified',
-    desc: 'Lincoln-Douglas, Policy, and Public Forum debate coaching with tournament travel.'
+    name: 'Football & Athletics Academy',
+    category: 'Sports',
+    badge: 'Subroto Cup Contenders',
+    desc: 'Rigorous coaching in football, cricket, volleyball, 100m/400m sprint athletics, and annual sports meet.'
   },
   {
-    name: 'Sustainability & Eco-Agriculture',
+    name: 'Cultural & Literary Guild',
+    category: 'Fine Arts',
+    badge: 'State Heritage Award',
+    desc: 'Celebrating Rabindra Jayanti, Kazi Nazrul Islam birth anniversary, Independence Day concerts, and drama.'
+  },
+  {
+    name: 'Eco-Club & Campus Greenery Project',
     category: 'Environment',
-    badge: 'Green Campus',
-    desc: 'Managing our 2-acre organic campus greenhouse, solar telemetry, and composting.'
+    badge: 'Green Campus Initiative',
+    desc: 'Tree plantation drives, plastic-free campus campaigns, medicinal plant garden, and waste segregation.'
   }
 ];
 
 export const ACADEMIC_COUNSELING = [
   {
-    title: 'Personalized College Roadmap',
-    desc: 'Dedicated counselors match each student with best-fit universities across North America, the UK, Europe, and Asia.'
+    title: 'Integrated NEET, JEE & WBJEE Guidance',
+    desc: 'In-house expert mentoring, chapter-wise test series, and past-years question solving for medical and engineering entrances.'
   },
   {
-    title: 'Standardized Test Prep & Strategy',
-    desc: 'Complimentary on-campus diagnostic testing and bespoke prep modules for SAT, ACT, and IB/AP Examinations.'
+    title: 'Board Examination Mentorship & Doubt Clearing',
+    desc: 'Special remedial coaching, model answer paper evaluations, and one-on-one subject doubt-clearing sessions for board examinees.'
   },
   {
-    title: 'Global University Visits & Fairs',
-    desc: 'Over 120 college admissions representatives visit our auditorium annually for private information sessions.'
+    title: 'Central & State University Admissions',
+    desc: 'Comprehensive guidance for CUET, Calcutta University, Jadavpur University, Aligarh Muslim University, and Jamia Millia Islamia admissions.'
   },
   {
-    title: 'Fellowship & Scholarship Guidance',
-    desc: 'Dedicated coaching for prestigious merit fellowships including Morehead-Cain, Robertson, and Gates Millennium.'
+    title: 'Scholarship Portal & Welfare Assistance',
+    desc: 'Dedicated cell for seamless application and document verification under Aikyashree, Kanyashree (K1/K2/K3), Shikshashree, and SVMCM.'
   }
 ];

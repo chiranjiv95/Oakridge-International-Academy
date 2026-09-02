@@ -38,7 +38,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge Contact Campus"
+            alt="Malda Model Madrasah Contact Campus"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />
@@ -52,7 +52,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
             Contact & Campus Location
           </h1>
           <p className="mt-4 text-base sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            We are here to assist with admissions inquiries, campus visits, transcript requests, and general questions.
+            We are here to assist with admissions inquiries, campus visits, scholarship verifications, and general academic information.
           </p>
         </div>
       </section>
@@ -69,9 +69,9 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               <div className="p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-md space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold font-serif text-slate-900 dark:text-white">
-                    Oakridge Academy Main Campus
+                    {SCHOOL_INFO.shortName} Campus
                   </h3>
-                  <p className="text-xs text-slate-500 mt-1">Silicon Valley Innovation Corridor</p>
+                  <p className="text-xs text-amber-600 dark:text-amber-400 font-semibold mt-1">Govt. of West Bengal • English Medium Model Madrasah</p>
                 </div>
 
                 <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
@@ -91,8 +91,8 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                     </div>
                     <div>
                       <p className="font-bold text-slate-900 dark:text-white">Telephone Directory</p>
-                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Admissions: {SCHOOL_INFO.admissionsPhone}</p>
-                      <p className="text-xs text-slate-500 dark:text-slate-400">Main Switchboard: {SCHOOL_INFO.phone}</p>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Admissions & Info: {SCHOOL_INFO.admissionsPhone}</p>
+                      <p className="text-xs text-slate-500 dark:text-slate-400">Office Desk: {SCHOOL_INFO.phone}</p>
                     </div>
                   </div>
 
@@ -112,7 +112,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                       <Clock className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="font-bold text-slate-900 dark:text-white">Office & Reception Hours</p>
+                      <p className="font-bold text-slate-900 dark:text-white">Office & School Hours</p>
                       <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">{SCHOOL_INFO.officeHours}</p>
                       <p className="text-xs text-slate-500 dark:text-slate-400">Classes: {SCHOOL_INFO.schoolHours}</p>
                     </div>
@@ -125,7 +125,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                     className="w-full py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-md transition-colors flex items-center justify-center gap-2"
                   >
                     <Compass className="w-4 h-4" />
-                    <span>Book Guided In-Person Campus Tour</span>
+                    <span>Book Guided In-Person Campus Visit</span>
                   </button>
                 </div>
               </div>
@@ -137,18 +137,18 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
                     <p className="font-bold text-slate-200">Admissions Office</p>
-                    <p className="text-slate-400 mt-0.5">admissions@oakridgeacademy.edu</p>
+                    <p className="text-slate-400 mt-0.5">admissions@maldamodelmadrasah.edu.in</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
-                    <p className="font-bold text-slate-200">Principal's Desk</p>
-                    <p className="text-slate-400 mt-0.5">principal@oakridgeacademy.edu</p>
+                    <p className="font-bold text-slate-200">Headmaster's Desk</p>
+                    <p className="text-slate-400 mt-0.5">headmaster@maldamodelmadrasah.edu.in</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
-                    <p className="font-bold text-slate-200">Bus Transportation</p>
-                    <p className="text-slate-400 mt-0.5">transport@oakridgeacademy.edu</p>
+                    <p className="font-bold text-slate-200">Scholarship Cell</p>
+                    <p className="text-slate-400 mt-0.5">scholarships@maldamodelmadrasah.edu.in</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
-                    <p className="font-bold text-slate-200">Health Clinic (24/7)</p>
+                    <p className="font-bold text-slate-200">First Aid Clinic</p>
                     <p className="text-slate-400 mt-0.5">{SCHOOL_INFO.emergencyHotline}</p>
                   </div>
                 </div>
@@ -303,8 +303,8 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Directions & Transit"
-            title="Getting to Oakridge International Academy"
-            subtitle="Conveniently situated adjacent to major transport corridors with dedicated campus parking."
+            title={`Getting to ${SCHOOL_INFO.shortName}`}
+            subtitle="Conveniently situated in Chandan Park, English Bazar with seamless connectivity to Malda Town Railway Station and State Highways."
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -313,7 +313,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
             <div className="lg:col-span-7 rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-md relative min-h-[380px] bg-slate-950 flex flex-col justify-end p-8 text-white">
               <img
                 src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=80"
-                alt="Oakridge Campus Map Simulation"
+                alt="Malda Model Madrasah Campus Map Simulation"
                 className="absolute inset-0 w-full h-full object-cover opacity-40"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" />
@@ -321,13 +321,13 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               <div className="relative z-10 space-y-3">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500 text-slate-950 text-xs font-bold shadow">
                   <MapPin className="w-3.5 h-3.5" />
-                  <span>Main Campus Visitor Entrance — Gate A</span>
+                  <span>Main Campus Administrative Reception — Main Gate</span>
                 </div>
                 <h3 className="text-2xl font-bold font-serif text-white">
-                  4500 Academic Boulevard, Silicon Valley Campus
+                  {SCHOOL_INFO.address}
                 </h3>
                 <p className="text-xs text-slate-300 max-w-lg leading-relaxed">
-                  Visitor parking is complimentary in Lot P1 directly adjacent to the Welcome Center and Administration building. Please check in at Security Gate A upon arrival with valid government identification.
+                  Visitor check-in is located at the Main Administrative Reception at Chandan Park. Please bring a valid photo identity proof for visitor registration during school working hours.
                 </p>
               </div>
             </div>
@@ -339,9 +339,9 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   <Car className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-base font-bold font-serif text-slate-900 dark:text-white">By Automobile</h4>
+                  <h4 className="text-base font-bold font-serif text-slate-900 dark:text-white">By Road & Highway</h4>
                   <p className="text-xs text-slate-600 dark:text-slate-400 mt-1 leading-relaxed">
-                    Take Interstate Highway 280 / Route 101 to Exit 24 (Academic Boulevard). Turn East onto Campus Way. Lot P1 parking is on the right.
+                    Accessible from NH-34 / NH-12 via English Bazar main bypass road leading directly into Chandan Park.
                   </p>
                 </div>
               </div>
@@ -351,9 +351,9 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   <Bus className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-base font-bold font-serif text-slate-900 dark:text-white">Public Transit & Caltrain</h4>
+                  <h4 className="text-base font-bold font-serif text-slate-900 dark:text-white">Railway & Bus Connectivity</h4>
                   <p className="text-xs text-slate-600 dark:text-slate-400 mt-1 leading-relaxed">
-                    Complimentary Oakridge shuttle runs every 15 minutes between the University Caltrain station and the campus main quadrangle during school hours.
+                    Located only 10-15 minutes from Malda Town Railway Station and Rathbari Central Bus Stand with frequent auto-rickshaws and bus connections.
                   </p>
                 </div>
               </div>
@@ -363,9 +363,9 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   <ShieldAlert className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-base font-bold font-serif text-slate-900 dark:text-white">Visitor Security Clearance</h4>
+                  <h4 className="text-base font-bold font-serif text-slate-900 dark:text-white">Visitor Entry Protocol</h4>
                   <p className="text-xs text-slate-600 dark:text-slate-400 mt-1 leading-relaxed">
-                    All visitors receive a printed electronic guest badge valid for their registered appointments and campus tour slots.
+                    All visitors and guardians register at the reception desk to receive an authorized visitor slip prior to accessing faculty blocks.
                   </p>
                 </div>
               </div>

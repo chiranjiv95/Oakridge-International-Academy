@@ -3,165 +3,165 @@ import { AdmissionStep, FeeTier, FAQItem } from '../types';
 export const ADMISSION_STEPS: AdmissionStep[] = [
   {
     stepNumber: 1,
-    title: 'Submit Initial Inquiry',
-    timeline: 'Anytime / Rolling',
-    description: 'Fill out our online inquiry form to receive the comprehensive digital prospectus, curriculum guides, and direct contact from an admissions counselor.',
-    requirements: ['Parent/Guardian contact info', 'Student current grade level', 'Academic areas of interest'],
+    title: 'Official Notification & Registration',
+    timeline: 'November – December',
+    description: 'Notice published on the official portal and school notice board following the guidelines of the Dept. of Minority Affairs & Madrasah Education, Govt. of West Bengal.',
+    requirements: ['Student Birth Certificate', 'Aadhaar Card (Student & Parents)', 'Previous class marksheet/record'],
     iconName: 'FileText'
   },
   {
     stepNumber: 2,
-    title: 'Campus Tour & Information Session',
-    timeline: 'September – January',
-    description: 'Experience our 32-acre learning environment in person or through an interactive guided virtual session. Meet faculty and sit in on live classroom seminars.',
-    requirements: ['Book appointment online', 'Campus visitor registration', 'Q&A session with Division Head'],
-    iconName: 'Compass'
-  },
-  {
-    stepNumber: 3,
-    title: 'Formal Application Submission',
-    timeline: 'Deadline: January 15 (Priority)',
-    description: 'Complete the student application portal. Submit official academic transcripts, teacher recommendation letters, and the student reflective essay.',
-    requirements: ['Past 2 years academic records', '2 Teacher recommendation forms', 'Student personal essay / portfolio', '$125 Application fee'],
+    title: 'Application Submission',
+    timeline: 'December – January',
+    description: 'Submit online or offline admission form with necessary category certificates, photographs, and academic credentials.',
+    requirements: ['Filled admission form', 'Passport size photographs (4 copies)', 'Caste/Minority certificate (if applicable)', 'Transfer Certificate (TC)'],
     iconName: 'Send'
   },
   {
-    stepNumber: 4,
-    title: 'Student Assessment & Family Interview',
-    timeline: 'January – February',
-    description: 'Age-appropriate holistic evaluation of literacy, mathematical thinking, and problem-solving, alongside a warm conversational family interview.',
-    requirements: ['Diagnostic assessment', 'Conversational interview (in-person or Zoom)', 'Optional arts/athletics portfolio review'],
+    stepNumber: 3,
+    title: 'Screening / Merit Evaluation & Lottery',
+    timeline: 'January',
+    description: 'Lottery/merit assessment conducted in compliance with West Bengal Government RTE and Model Madrasah admission criteria.',
+    requirements: ['Admit card verification', 'Document verification at campus', 'Parent interaction session'],
     iconName: 'UserCheck'
   },
   {
-    stepNumber: 5,
-    title: 'Admission Decision & Enrollment',
-    timeline: 'Mid-March',
-    description: 'Official decisions released via the portal. Admitted families confirm enrollment by submitting the registration deposit and joining the welcoming orientation.',
-    requirements: ['Signed enrollment contract', 'Registration deposit', 'Health & immunization clearance'],
+    stepNumber: 4,
+    title: 'Merit List Publication & Counseling',
+    timeline: 'Late January',
+    description: 'Publication of provisional merit list and waiting list on the official portal and campus notice board.',
+    requirements: ['Original document verification', 'Bank account details (for DBT scholarships)', 'Health declaration form'],
     iconName: 'CheckCircle2'
+  },
+  {
+    stepNumber: 5,
+    title: 'Final Admission & Orientation',
+    timeline: 'First week of February',
+    description: 'Completion of formal admission paperwork, distribution of free text books, uniform allowance details, and academic orientation.',
+    requirements: ['Signed admission receipt', 'Kanyashree/Aikyashree registration form', 'Hostel accommodation form (for boarders)'],
+    iconName: 'Compass'
   }
 ];
 
 export const KEY_DEADLINES = [
   {
-    event: 'Early Decision Application Deadline',
-    date: 'November 15, 2026',
+    event: 'Admission Notification Release (Classes V to IX)',
+    date: 'November 20, 2026',
     status: 'Upcoming'
   },
   {
-    event: 'Regular Admission Priority Deadline',
-    date: 'January 15, 2027',
+    event: 'Online & Offline Application Form Submission Deadline',
+    date: 'December 28, 2026',
     status: 'Upcoming'
   },
   {
-    event: 'Scholarship & Financial Aid Application Deadline',
-    date: 'February 1, 2027',
+    event: 'Merit List Publication & First Round Counseling',
+    date: 'January 10, 2027',
     status: 'Upcoming'
   },
   {
-    event: 'Admission Decisions Notification Date',
-    date: 'March 10, 2027',
+    event: 'Higher Secondary (Class XI Science/Arts) Admission Portal Opens',
+    date: 'May 15, 2027 (Post-Madhyamik Results)',
     status: 'Upcoming'
   },
   {
-    event: 'Admitted Students Welcome & Enrollment Day',
-    date: 'April 5, 2027',
+    event: 'Commencement of New Academic Session',
+    date: 'February 2027 / June 2027 (HS)',
     status: 'Scheduled'
   }
 ];
 
 export const TUITION_TIERS: FeeTier[] = [
   {
-    gradeLevel: 'Primary (Pre-K – Grade 5)',
-    annualTuition: '$18,500 / year',
-    admissionFee: '$1,500 (one-time)',
-    developmentFee: '$800 / year',
+    gradeLevel: 'Upper Primary Section (Classes V – VIII)',
+    annualTuition: '₹0 (Free Education under Govt. of WB)',
+    admissionFee: '₹240 (Nominal Annual Session Fee)',
+    developmentFee: '₹0 / Nil',
     includes: [
-      'All instructional textbooks & digital learning software',
-      'Daily organic hot lunch & nutritional snacks',
-      'Classroom art supplies & junior robotics kits',
-      'Annual local educational field trips & cultural days'
+      'Free government NCERT / WBBME textbooks & learning materials',
+      'Daily hygienic nutritious Mid-Day Meal program',
+      'Free school uniform allowance & school bag distribution',
+      'Full ICT computer lab & library access'
     ]
   },
   {
-    gradeLevel: 'Middle School (Grades 6 – 8)',
-    annualTuition: '$22,800 / year',
-    admissionFee: '$1,500 (one-time)',
-    developmentFee: '$950 / year',
+    gradeLevel: 'Secondary / High Madrasah (Classes IX – X)',
+    annualTuition: '₹0 (Free Education under Govt. of WB)',
+    admissionFee: '₹350 (Annual Examination & Session Fee)',
+    developmentFee: '₹0 / Nil',
     includes: [
-      '1:1 Apple iPad/MacBook technology package & licensing',
-      'Full laboratory consumables & STEM innovation kit',
-      'Competitive inter-scholastic sports league fees',
-      'Organic dining & comprehensive health clinic access'
+      'Science laboratory practicals & consumable supplies',
+      'Kanyashree (K1) / Aikyashree scholarship facilitation',
+      'Free textbook sets & supplementary test papers',
+      'Sports, athletics & annual exhibition participation'
     ]
   },
   {
-    gradeLevel: 'High School & IB (Grades 9 – 12)',
-    annualTuition: '$26,900 / year',
-    admissionFee: '$1,800 (one-time)',
-    developmentFee: '$1,200 / year',
+    gradeLevel: 'Higher Secondary Section (Classes XI – XII Science/Arts)',
+    annualTuition: '₹120 / month (Nominal Govt. Subsidized)',
+    admissionFee: '₹500 (One-time WBCHSE Registration & Session)',
+    developmentFee: '₹0 / Nil',
     includes: [
-      'IB Diploma & AP Exam registration support fees',
-      'Full 1:1 bespoke College Counseling & SAT/ACT prep',
-      'Access to university research fellowship labs',
-      'Varsity athletics, performing arts, and MUN travel subsidy'
+      'Full access to advanced Physics, Chemistry, Biology & Computer Labs',
+      'In-house NEET / JEE / WBJEE entrance mentorship modules',
+      'Swami Vivekananda Merit-cum-Means (SVMCM) / Kanyashree K2 facilitation (₹12,000 - ₹25,000/yr)',
+      'Taruner Swapno free tablet/device grant for Class XII students'
     ]
   }
 ];
 
 export const SCHOLARSHIPS = [
   {
-    name: 'Presidential Academic Merit Fellowship',
-    coverage: 'Up to 75% Tuition Coverage',
-    eligibility: 'Awarded to incoming 9th-11th graders with exceptional standardized test scores, top 5% GPA, and proven research leadership.'
+    name: 'Aikyashree State Scholarship (Pre-Matric & Post-Matric)',
+    coverage: '100% Govt. Financial Grant (Up to ₹10,000/year)',
+    eligibility: 'Awarded to eligible minority students across West Bengal by the Minority Affairs & Madrasah Education Department for tuition, books, and maintenance.'
   },
   {
-    name: 'Ada Lovelace STEM & Innovation Grant',
-    coverage: '50% Tuition + $2,500 Project Grant',
-    eligibility: 'For students exhibiting extraordinary talent in competitive coding, robotics engineering, or empirical scientific research.'
+    name: 'Kanyashree Prakalpa (K1 & K2 Annual Grants)',
+    coverage: 'Annual Grant (K1: ₹1,000/yr) & One-time Grant (K2: ₹25,000)',
+    eligibility: 'Flagship Government of West Bengal conditional cash transfer scheme for girl students aged 13-19 to incentivize secondary and higher secondary education.'
   },
   {
-    name: 'Global Cultural & Artistic Excellence Award',
-    coverage: 'Up to 50% Tuition Coverage',
-    eligibility: 'For prodigies in orchestral music, fine visual arts, theater, or competitive speech & debate.'
+    name: 'Swami Vivekananda Merit-cum-Means (SVMCM) Scholarship',
+    coverage: '₹12,000 to ₹18,000 per year',
+    eligibility: 'Awarded to meritorious students scoring 60%+ in Madhyamik / High Madrasah examinations pursuing Higher Secondary Science/Arts streams.'
   },
   {
-    name: 'Need-Based Financial Assistance (Oakridge Opportunity Fund)',
-    coverage: '20% to 100% Comprehensive Aid',
-    eligibility: 'Evaluated through confidential third-party financial review (FAST/SSS), ensuring no qualified scholar is turned away due to financial constraints.'
+    name: 'Shikshashree & Model Madrasah Special Merit Stipend',
+    coverage: 'Book Grants, Uniform & Free Boarding Waiver',
+    eligibility: 'Special welfare assistance and hostel accommodation fee waivers for meritorious scholars from economically weaker backgrounds.'
   }
 ];
 
 export const ADMISSION_FAQS: FAQItem[] = [
   {
-    question: 'What is the ideal timeline for submitting an application?',
-    answer: 'We encourage families to begin the process 10 to 12 months prior to the intended school year. Priority applications are due by January 15th, though rolling admissions are considered based on grade-level seat availability.',
-    category: 'admissions'
-  },
-  {
-    question: 'Do you offer school bus transportation?',
-    answer: 'Yes! Oakridge operates an extensive fleet of GPS-tracked, air-conditioned school buses covering over 24 neighborhood routes across the metropolitan region, complete with certified security attendants.',
-    category: 'transport'
-  },
-  {
-    question: 'What is the student-to-teacher ratio at Oakridge?',
-    answer: 'Our overall student-to-faculty ratio is 1:11, with average class sizes capped at 16 to 18 students. This ensures rich seminar discussions and deep individual mentorship.',
+    question: 'Is the medium of instruction completely English?',
+    answer: 'Yes! Malda Government Model Madrasah is a dedicated English-medium government model institution where all core subjects (Sciences, Mathematics, Social Studies, ICT) are taught exclusively in English, with strong language support in Bengali, Urdu, and Arabic.',
     category: 'academics'
   },
   {
-    question: 'Is financial aid available for international students?',
-    answer: 'Yes, merit scholarships and need-based financial aid are open to all students regardless of citizenship. International applicants apply through the standard financial aid portal.',
-    category: 'admissions'
-  },
-  {
-    question: 'What world languages are taught at the academy?',
-    answer: 'We offer intensive language tracks in Spanish, French, Mandarin Chinese, and German from Grade 1 through AP/IB Higher Levels, as well as English as an Additional Language (EAL) support.',
+    question: 'Which examination boards is the institution affiliated with?',
+    answer: 'The secondary section is affiliated with the West Bengal Board of Madrasah Education (WBBME) and the Higher Secondary (10+2) section is affiliated with the West Bengal Council of Higher Secondary Education (WBCHSE).',
     category: 'academics'
   },
   {
-    question: 'Are campus visits required before applying?',
-    answer: 'While in-person campus visits are strongly encouraged to get a feel for our vibrant community, we offer interactive virtual tour experiences and online interviews for international or relocating families.',
+    question: 'Are hostel and boarding facilities available on campus?',
+    answer: 'Yes, the institution provides separate, secure, and well-equipped hostel facilities for outstation students with hygienic dining, study halls, and 24/7 superintendent supervision.',
     category: 'general'
+  },
+  {
+    question: 'What is the admission procedure for Class V and Class XI?',
+    answer: 'Admissions for Class V follow the West Bengal RTE lottery and merit guidelines in December-January. Class XI Science and Arts stream admissions take place immediately following the publication of Madhyamik/High Madrasah results based on merit cutoff marks.',
+    category: 'admissions'
+  },
+  {
+    question: 'How do students apply for state government scholarships?',
+    answer: 'Our dedicated scholarship facilitation cell assists every admitted student in submitting applications for Aikyashree, Kanyashree, Shikshashree, and SVMCM through direct benefit transfer (DBT).',
+    category: 'admissions'
+  },
+  {
+    question: 'What transportation facilities are available in Malda district?',
+    answer: 'The campus is centrally located at Chandan Park, English Bazar, Malda, well connected by local bus networks, e-rickshaws, and within 10 minutes of Malda Town Railway Station.',
+    category: 'transport'
   }
 ];

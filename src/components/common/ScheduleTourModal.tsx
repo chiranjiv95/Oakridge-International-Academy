@@ -39,7 +39,7 @@ export const ScheduleTourModal: React.FC<ScheduleTourModalProps> = ({ isOpen, on
             </div>
             <div>
               <h3 className="text-lg font-bold font-serif">Schedule a Campus Experience</h3>
-              <p className="text-xs text-slate-300">Discover life at Oakridge Academy firsthand</p>
+              <p className="text-xs text-slate-300">Discover life at Malda Model Madrasah firsthand</p>
             </div>
           </div>
           <button onClick={onClose} className="text-slate-400 hover:text-white p-1">
@@ -55,13 +55,13 @@ export const ScheduleTourModal: React.FC<ScheduleTourModalProps> = ({ isOpen, on
               </div>
               <h4 className="text-xl font-bold font-serif text-slate-900 dark:text-white">Campus Tour Confirmed!</h4>
               <p className="text-sm text-slate-600 dark:text-slate-300 max-w-sm mx-auto">
-                Thank you, <span className="font-semibold text-slate-900 dark:text-white">{formData.parentName || 'Family'}</span>. A calendar invitation and visitor parking pass have been dispatched to <span className="font-semibold text-slate-900 dark:text-white">{formData.email}</span>.
+                Thank you, <span className="font-semibold text-slate-900 dark:text-white">{formData.parentName || 'Family'}</span>. A calendar invitation and visitor pass details have been dispatched to <span className="font-semibold text-slate-900 dark:text-white">{formData.email}</span>.
               </p>
               <div className="p-4 bg-slate-50 dark:bg-slate-800/60 rounded-xl text-left text-xs space-y-1.5 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
                 <p><span className="font-bold text-slate-900 dark:text-white">Scheduled Date:</span> {formData.tourDate} at {formData.tourTime}</p>
                 <p><span className="font-bold text-slate-900 dark:text-white">Format:</span> {formData.tourType}</p>
                 <p><span className="font-bold text-slate-900 dark:text-white">Grade Level of Interest:</span> {formData.gradeInterest}</p>
-                <p><span className="font-bold text-slate-900 dark:text-white">Meeting Location:</span> Oakridge Welcome Center (East Gate)</p>
+                <p><span className="font-bold text-slate-900 dark:text-white">Meeting Location:</span> Madrasah Administrative Reception (Main Gate, Chandan Park)</p>
               </div>
               <button
                 onClick={() => {

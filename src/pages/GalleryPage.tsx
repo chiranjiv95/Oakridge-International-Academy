@@ -27,7 +27,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src="https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge Gallery"
+            alt="Malda Model Madrasah Gallery"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />
@@ -35,7 +35,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold uppercase tracking-wider mb-4">
-            <Camera className="w-3.5 h-3.5" /> Moments at Oakridge
+            <Camera className="w-3.5 h-3.5" /> Campus Life & Moments
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif text-white tracking-tight">
             Photo & Campus Life Gallery

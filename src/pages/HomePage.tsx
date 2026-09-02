@@ -38,7 +38,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge International Academy Campus Quadrangle"
+            alt="Malda Government Model Madrasah Campus Quadrangle"
             className="w-full h-full object-cover opacity-35 filter brightness-90"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" />
@@ -51,20 +51,20 @@ export const HomePage: React.FC<HomePageProps> = ({
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-400/30 text-xs sm:text-sm font-semibold mb-6 shadow-inner animate-pulse">
             <Award className="w-4 h-4 text-amber-400" />
-            <span>Ranked #1 Independent International Academy in the Pacific Northwest</span>
+            <span>Premier English-Medium Government Model Institution • Malda, West Bengal</span>
           </div>
 
           {/* Main Hero Headline */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-serif tracking-tight text-white max-w-5xl leading-[1.1]">
-            Nurturing Inquiring Minds, <br className="hidden sm:inline" />
+            Knowledge, Character & <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200">
-              Shaping Global Leaders
+              Academic Excellence
             </span>
           </h1>
 
           {/* Tagline */}
           <p className="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl leading-relaxed">
-            At Oakridge International Academy, we combine the rigor of the International Baccalaureate with cutting-edge STEM research and holistic character formation across our 32-acre innovation campus.
+            At {SCHOOL_INFO.name}, we provide high-quality English-medium schooling, advanced science laboratories, smart digital classrooms, and 100% government scholarship enablement across our sprawling 15-acre campus.
           </p>
 
           {/* Action CTAs */}
@@ -96,10 +96,10 @@ export const HomePage: React.FC<HomePageProps> = ({
 
           {/* Quick Accreditations Pill */}
           <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs text-slate-400 uppercase tracking-widest font-semibold">
-            <span>• IB World Continuum</span>
-            <span>• Cambridge International</span>
-            <span>• CIS Accredited</span>
-            <span>• NEASC Member</span>
+            <span>• WBBME Recognized</span>
+            <span>• WBCHSE Affiliated</span>
+            <span>• Govt. of West Bengal</span>
+            <span>• ICT Smart Classroom Scheme</span>
           </div>
 
         </div>
@@ -157,7 +157,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             {/* Right Text Details */}
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border border-amber-200 dark:border-amber-800">
-                <span>Welcome to Oakridge</span>
+                <span>Welcome to Malda Model Madrasah</span>
               </div>
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif text-slate-900 dark:text-white leading-tight">
@@ -165,15 +165,15 @@ export const HomePage: React.FC<HomePageProps> = ({
               </h2>
 
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                Founded in 1988, Oakridge International Academy has cultivated a tradition of fearless intellectual inquiry and compassionate global service. We believe that true education does not simply impart facts; it awakens imagination, sharpens critical faculties, and provides students with the moral compass to navigate an interconnected world.
+                As a premier government model institution under the Department of Minority Affairs & Madrasah Education, Government of West Bengal, we deliver rigorous English-medium schooling, smart digital classrooms, advanced STEM labs, and dedicated NEET/JEE coaching to unlock every student's highest potential.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                 {[
-                  'Inquiry-Based IB Continuum (PYP, MYP, DP)',
-                  'Research-Grade STEM Wet Labs & AI Suites',
-                  '1:1 Dedicated University & College Counseling',
-                  'Championship Athletics & World-Class Performing Arts'
+                  'WBBME & WBCHSE English-Medium Instruction',
+                  'High-Tech Composite Science & ICT Computer Labs',
+                  'In-House NEET, JEE & Board Mentorship Cell',
+                  '100% Government Scholarships (Aikyashree, Kanyashree, SVMCM)'
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
@@ -194,7 +194,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   onClick={() => onNavigate('faculty')}
                   className="px-5 py-3 rounded-xl border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-semibold text-sm transition-colors"
                 >
-                  Meet Faculty & Deans
+                  Meet Our Faculty
                 </button>
               </div>
 
@@ -209,8 +209,8 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Pillars of Excellence"
-            title="The Four Foundations of an Oakridge Education"
-            subtitle="Our multidimensional curriculum balances rigorous scholarship with experiential innovation, creative expression, and athletic discipline."
+            title="The Four Foundations of Model Madrasah Education"
+            subtitle="Our multidimensional curriculum balances rigorous English-medium scholarship with digital innovation, creative expression, and athletic discipline."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -474,7 +474,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <SectionHeading
             badge="Community Perspectives"
             title="Voices of Our Students, Parents & Alumni"
-            subtitle="Hear how an Oakridge education transforms intellectual confidence and prepares young scholars for world-class impact."
+            subtitle="Hear how Malda Model Madrasah transforms academic confidence and prepares young scholars for premier medical, engineering, and university careers."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -519,13 +519,13 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="absolute inset-0 bg-radial from-amber-500/10 via-transparent to-transparent pointer-events-none" />
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500 text-slate-950 mb-4 inline-block">
-            Admissions for Fall 2026
+            Admissions for Academic Session 2026-2027
           </span>
           <h2 className="text-3xl sm:text-5xl font-bold font-serif text-white leading-tight">
-            Begin Your Oakridge Story Today
+            Begin Your Journey with Malda Model Madrasah
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Our admissions deans are here to guide your family through every step of the enrollment process. Connect with us or reserve your campus visit.
+            Our administrative office is ready to assist your family with admission guidelines, eligibility criteria, and state government scholarship enrollments.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

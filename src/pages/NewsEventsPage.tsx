@@ -48,7 +48,7 @@ export const NewsEventsPage: React.FC<NewsEventsPageProps> = ({ onNavigate }) =>
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge News & Events"
+            alt="Malda Model Madrasah News & Events"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />

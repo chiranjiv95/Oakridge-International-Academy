@@ -44,7 +44,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
               Ready to embark on an exceptional educational journey?
             </h3>
             <p className="mt-2 text-slate-300 text-sm sm:text-base">
-              Experience the Oakridge spirit in person or begin your online application today.
+              Experience the excellence of Malda Model Madrasah in person or submit your online application today.
             </p>
           </div>
 
@@ -78,14 +78,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
               </div>
               <div>
                 <h4 className="font-serif text-lg font-bold text-white leading-tight">
-                  Oakridge International Academy
+                  {SCHOOL_INFO.name}
                 </h4>
-                <p className="text-xs text-slate-400">Excellence in Global Education</p>
+                <p className="text-xs text-amber-400">Govt. of West Bengal • English Medium</p>
               </div>
             </div>
 
             <p className="text-sm text-slate-400 leading-relaxed">
-              Empowering inquiring, knowledgeable, and compassionate young people who create a better and more peaceful world through intercultural understanding and intellectual rigor.
+              Empowering students through high-quality English-medium instruction, modern STEM laboratories, and moral character under the Department of Minority Affairs & Madrasah Education, Government of West Bengal.
             </p>
 
             <div className="pt-2 text-xs space-y-1.5 text-slate-400">
@@ -112,12 +112,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
                 <button onClick={() => handleNav('about')} className="hover:text-white transition-colors">
-                  About Our Academy
+                  About Madrasah
                 </button>
               </li>
               <li>
                 <button onClick={() => handleNav('academics')} className="hover:text-white transition-colors">
-                  Academic Divisions
+                  Academic Sections
                 </button>
               </li>
               <li>
@@ -156,32 +156,32 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
                 <button onClick={() => handleNav('academics')} className="hover:text-white transition-colors">
-                  IB Diploma Programme (IBDP)
+                  Higher Secondary Science & Arts (WBCHSE)
                 </button>
               </li>
               <li>
                 <button onClick={() => handleNav('academics')} className="hover:text-white transition-colors">
-                  Advanced Placement (AP) Capstone
+                  Secondary High Madrasah (WBBME)
                 </button>
               </li>
               <li>
                 <button onClick={() => handleNav('academics')} className="hover:text-white transition-colors">
-                  STEM & Robotics Syndicate
+                  NEET & JEE Integrated Mentorship
                 </button>
               </li>
               <li>
                 <button onClick={() => handleNav('admissions')} className="hover:text-white transition-colors">
-                  Merit Scholarships & Aid
+                  Aikyashree & Kanyashree Schemes
                 </button>
               </li>
               <li>
                 <button onClick={onOpenPortals} className="hover:text-amber-400 font-medium transition-colors">
-                  Parent Portal (PowerSchool)
+                  Banglar Shiksha Portal Sync
                 </button>
               </li>
               <li>
                 <button onClick={onOpenPortals} className="hover:text-amber-400 font-medium transition-colors">
-                  Student Canvas LMS
+                  Student E-Learning Portal
                 </button>
               </li>
               <li>
@@ -195,16 +195,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
           {/* Newsletter Subscription */}
           <div className="lg:col-span-3 space-y-4">
             <h5 className="text-xs font-bold uppercase tracking-wider text-amber-400 font-sans">
-              Oakridge Chronicle
+              Model Madrasah Gazette
             </h5>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Subscribe to receive our monthly student gazette, academic achievements, and upcoming cultural performance schedules.
+              Subscribe to receive official circulars, examination notifications, board results, and academic achievement bulletins.
             </p>
 
             {isSubscribed ? (
               <div className="p-3.5 bg-emerald-950/60 border border-emerald-700/60 rounded-xl text-emerald-300 text-xs flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>Thank you for subscribing to the Oakridge Chronicle!</span>
+                <span>Thank you for subscribing to the Model Madrasah Gazette!</span>
               </div>
             ) : (
               <form onSubmit={handleSubscribe} className="space-y-2">
@@ -222,7 +222,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
                   type="submit"
                   className="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow transition-colors flex items-center justify-center gap-1.5"
                 >
-                  <span>Subscribe to Newsletter</span>
+                  <span>Subscribe to Circulars</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </form>
@@ -230,7 +230,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
 
             <div className="pt-2">
               <p className="text-[11px] text-slate-500">
-                School Affiliations: IB World Continuum • CIS Accredited • NEASC Member • Cambridge Assessment
+                Affiliations: WBBME • WBCHSE • Dept. of Minority Affairs & Madrasah Education, Govt. of West Bengal
               </p>
             </div>
           </div>
@@ -239,15 +239,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenTour, onOpenPo
 
         {/* Bottom Legal & Accreditations bar */}
         <div className="mt-12 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Oakridge International Academy. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} {SCHOOL_INFO.name}. All Rights Reserved.</p>
           <div className="flex items-center gap-6">
             <span className="hover:text-slate-400 cursor-pointer">Privacy Policy</span>
             <span>•</span>
-            <span className="hover:text-slate-400 cursor-pointer">Child Safeguarding Code</span>
+            <span className="hover:text-slate-400 cursor-pointer">Government Portal Disclaimers</span>
             <span>•</span>
-            <span className="hover:text-slate-400 cursor-pointer">Accessibility</span>
+            <span className="hover:text-slate-400 cursor-pointer">RTI & Disclosures</span>
             <span>•</span>
-            <span className="hover:text-slate-400 cursor-pointer">Emergency Hotline: {SCHOOL_INFO.emergencyHotline}</span>
+            <span className="hover:text-slate-400 cursor-pointer">Helpline: {SCHOOL_INFO.emergencyHotline}</span>
           </div>
         </div>
 

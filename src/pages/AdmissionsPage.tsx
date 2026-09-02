@@ -54,7 +54,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = ({
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=80"
-            alt="Oakridge Students Admissions"
+            alt="Malda Model Madrasah Students Admissions"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />

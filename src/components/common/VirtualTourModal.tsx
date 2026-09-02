@@ -31,8 +31,8 @@ export const VirtualTourModal: React.FC<VirtualTourModalProps> = ({
               <Compass className="w-5 h-5 animate-spin-slow" />
             </div>
             <div>
-              <h3 className="text-lg font-bold text-white font-serif">Oakridge Interactive Virtual Campus Tour</h3>
-              <p className="text-xs text-slate-400">Explore our 32-acre state-of-the-art facilities & learning spaces</p>
+              <h3 className="text-lg font-bold text-white font-serif">Malda Model Madrasah Interactive Virtual Tour</h3>
+              <p className="text-xs text-slate-400">Explore our 15-acre modern campus facilities & learning spaces</p>
             </div>
           </div>
           <button

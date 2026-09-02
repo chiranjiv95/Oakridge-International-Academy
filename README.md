@@ -1,6 +1,6 @@
-# Oakridge International Academy
+# Malda Government Model Madrasah (English Medium)
 
-A modern, responsive school website featuring comprehensive academics, admissions, faculty directory, facilities, news, events, and campus gallery.
+A modern, responsive official web portal for Malda Government Model Madrasah (English Medium), West Bengal, featuring comprehensive academics, government admissions, faculty directory, smart campus facilities, news, events, and gallery.
 
 ## Run Locally
 

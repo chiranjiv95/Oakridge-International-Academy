@@ -3,17 +3,17 @@ import { Facility } from '../types';
 export const FACILITIES_DATA: Facility[] = [
   {
     id: 'fac-science-hub',
-    name: 'Discovery Science & Biotechnology Wing',
+    name: 'Composite & Advanced Science Laboratories',
     category: 'Academic',
-    tagline: 'Research-grade laboratories for university-level empirical discovery',
-    description: 'Featuring 8 specialized laboratories for Molecular Genetics, Organic Chemistry, Advanced Physics, and IoT Environmental Sensing. Equipped with PCR thermal cyclers, laminar flow hoods, spectrometer sensors, and digital probe telemetry.',
+    tagline: 'Modern specialized laboratories for Physics, Chemistry, and Biological Sciences',
+    description: 'Equipped with precision compound microscopes, digital sensor kits, optics benches, chemical fume hoods, analytical balances, and comprehensive apparatus for WBCHSE and WBBME practicals.',
     features: [
-      '8 Specialized Research Wet & Dry Labs',
-      'Biosafety Level-1 certified containment systems',
-      'Digital sensor arrays for real-time telemetry data',
-      'Dedicated independent student fellowship workstations'
+      'Dedicated Physics, Chemistry & Life Science Lab Wings',
+      'Advanced optical spectrometers & digital galvanometers',
+      'Comprehensive biological specimen & botanical slide library',
+      'Individual student experimental workstations with safety protocols'
     ],
-    specs: '18,500 sq. ft. across 2 dedicated laboratory wings',
+    specs: '3 Large Specialized Laboratories accommodating 45 students each',
     image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1000&q=80',
     galleryImages: [
       'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80',
@@ -22,17 +22,17 @@ export const FACILITIES_DATA: Facility[] = [
   },
   {
     id: 'fac-robotics-center',
-    name: 'Turing Innovation Center & MakerSpace',
+    name: 'ICT Computer Hub & Digital Language Lab',
     category: 'Academic',
-    tagline: 'Where imagination is engineered into physical reality',
-    description: 'An advanced rapid prototyping arena housing industrial 3D resin printers, CNC milling machines, laser cutters, electronics fabrication benches, and an official FIRST / VEX robotics competition arena.',
+    tagline: 'High-speed computing and digital language enhancement facility',
+    description: 'Featuring 60+ networked workstations with high-speed optical fiber connectivity, Python and MySQL development environments, language acquisition audio headsets, and smart projection arrays.',
     features: [
-      'Industrial 3D Printers & Multi-Axis CNC Routers',
-      'Official regulation size Robotics Challenge Arena',
-      'Embedded systems & FPGA programming benches',
-      'Collaborative agile sprint zones for student startups'
+      '60+ High-Performance Desktop Terminals with UPS backup',
+      'Dedicated Digital English Language training modules',
+      'High-speed broadband optical fiber network',
+      'Smart interactive projection & teacher monitoring station'
     ],
-    specs: '12,000 sq. ft. open-floor innovation space',
+    specs: 'Air-conditioned 2,400 sq. ft. modern ICT laboratory',
     image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
     galleryImages: [
       'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80'
@@ -40,69 +40,67 @@ export const FACILITIES_DATA: Facility[] = [
   },
   {
     id: 'fac-library-commons',
-    name: 'The Athena Learning Commons & Digital Library',
+    name: 'Central Library & Reference Reading Room',
     category: 'Academic',
-    tagline: 'A sanctuary of knowledge, quiet contemplation, and collaboration',
-    description: 'Holding over 45,000 physical volumes, subscriptions to leading academic databases (JSTOR, Nature, Oxford Reference), acoustic quiet study pods, podcast recording studios, and interactive digital research tables.',
+    tagline: 'Rich repository of academic texts, competitive journals, and literature',
+    description: 'Housing over 15,000 titles covering NCERT textbooks, reference science volumes, encyclopedias, competitive exam guides (NEET/JEE/WBJEE), daily national English & regional newspapers, and reading alcoves.',
     features: [
-      '45,000+ Curated physical titles & 250,000+ digital e-books',
-      'Direct access to global research databases (JSTOR, EBSCO, IEEE)',
-      '12 Private acoustic group study rooms',
-      'Soundproof Multimedia & Podcast Creation Studio'
+      '15,000+ Curated books & competitive examination resources',
+      'Quiet individual reading cubicles and reference section',
+      'National & state periodicals, science journals, and dailies',
+      'Digital e-library catalog and book lending automation'
     ],
-    specs: '22,000 sq. ft. 3-level library with panoramic campus views',
+    specs: 'Spacious reading hall with seating for 120 students',
     image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1000&q=80',
     galleryImages: [
       'https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=600&q=80'
     ]
   },
   {
-    id: 'fac-aquatics',
-    name: 'Olympic Aquatics Complex',
-    category: 'Sports',
-    tagline: 'Championship training grounds for swimming and water polo',
-    description: 'An indoor 50-meter 10-lane Olympic-standard heated competition pool equipped with Colorado Time Systems, underwater stroke-analysis cameras, spectator bleachers for 600 guests, and a separate learn-to-swim junior pool.',
+    id: 'fac-smart-class',
+    name: 'Interactive Smart Digital Classrooms',
+    category: 'Academic',
+    tagline: 'Audio-visual dynamic learning under ICT @ Schools initiative',
+    description: 'Equipped with interactive touchscreen smart boards, high-definition multimedia projectors, digital curriculum content repository, and ergonomic modular seating.',
     features: [
-      '50m Heated Olympic pool with movable bulkhead',
-      'Underwater HD stroke analysis cameras',
-      'UV & Eco-Ozone water filtration system',
-      'Spectator seating capacity for 600+ guests'
+      '75-inch Touchscreen Interactive Digital Panels',
+      'Pre-loaded multimedia 3D science and mathematics animations',
+      'Acoustically balanced classrooms with natural cross-ventilation',
+      'Wi-Fi enabled hybrid presentation infrastructure'
     ],
-    specs: 'Olympic 50m x 25m with 600-seat grandstand',
-    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1000&q=80',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=600&q=80'
-    ]
+    specs: '35+ Smart classrooms across Upper Primary, Secondary & HS blocks',
+    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1000&q=80',
+    galleryImages: []
   },
   {
     id: 'fac-turf-stadium',
-    name: 'Oakridge Championship Turf Stadium & Track',
+    name: 'Model Madrasah Sports Ground & Athletic Field',
     category: 'Sports',
-    tagline: 'Home of the Oakridge Knights varsity athletics',
-    description: 'A professional all-weather FIFA-certified synthetic turf field for soccer, field hockey, rugby, and lacrosse, enclosed by an 8-lane IAAF-certified polyurethane running track, floodlighting for evening games, and stadium grandstands.',
+    tagline: 'Multi-sport athletic arena for football, cricket, and track events',
+    description: 'A sprawling natural grass sports ground supporting football tournaments, cricket nets, volleyball courts, badminton arenas, and a 400-meter athletics track for the annual sports meet.',
     features: [
-      'FIFA Quality Pro synthetic turf field',
-      '8-Lane IAAF all-weather sprint & distance track',
-      'High-efficiency LED broadcast floodlights',
-      'Covered stadium seating for 1,500 supporters'
+      'Full-size Football Ground & Cricket pitch',
+      '400-Meter running track and field event zones',
+      'Volleyball and badminton outdoor courts',
+      'Annual Sports Day & Subroto Cup training facilities'
     ],
-    specs: 'Regulation multi-sport field with 1,500 grandstand capacity',
+    specs: '5-Acre expansive outdoor playing complex',
     image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80',
     galleryImages: []
   },
   {
     id: 'fac-auditorium',
-    name: 'The Symphony Hall & Performing Arts Center',
+    name: 'Rabindra-Nazrul Cultural Hall & Seminar Auditorium',
     category: 'Arts & Media',
-    tagline: 'A world-class acoustic theater for orchestra, drama, and assemblies',
-    description: 'An 850-seat proscenium theater featuring Meyer Sound acoustic arrays, computerized fly system, motorized orchestra pit, professional stage lighting, green rooms, and dedicated rehearsal suites.',
+    tagline: 'Multipurpose auditorium for seminars, cultural assemblies, and exhibitions',
+    description: 'A 500-seat multipurpose assembly hall featuring professional public address audio system, stage lighting, podium, and air circulation for annual cultural programs, science exhibitions, and guest lectures.',
     features: [
-      '850-Seat acoustic theater with balcony seating',
-      'Motorized hydraulic orchestra pit',
-      'Full digital DMX lighting grid and automated fly towers',
-      '6 Dedicated dressing rooms and scene fabrication shop'
+      '500-Seat capacity assembly hall with elevated stage',
+      'Integrated digital PA audio and projection setup',
+      'Green rooms and preparation suites for performers',
+      'Venue for State Science Seminars and Annual Cultural Festivals'
     ],
-    specs: '850 seats, 4,000 sq. ft. stage area',
+    specs: '500 seats with 1,200 sq. ft. stage area',
     image: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=1000&q=80',
     galleryImages: [
       'https://images.unsplash.com/photo-1514306191717-452ec28c7814?auto=format&fit=crop&w=600&q=80'
@@ -110,33 +108,33 @@ export const FACILITIES_DATA: Facility[] = [
   },
   {
     id: 'fac-dining',
-    name: 'The Greenhouse Dining Pavilion',
+    name: 'Nutritional Dining Hall & Mid-Day Meal Pavilion',
     category: 'Wellness & Living',
-    tagline: 'Farm-to-table organic dining fueling young bodies and minds',
-    description: 'Serving chef-crafted, nutritionally balanced, organic meals daily. Features live cooking stations, allergen-free preparation zones, and produce harvested directly from our student-managed hydroponic greenhouse.',
+    tagline: 'Hygienic dining serving balanced, wholesome meals daily',
+    description: 'Spacious and hygienic dining facility catering to both day scholars with fresh hot Mid-Day Meals and residential students with nutritious multi-course daily dining.',
     features: [
-      '100% Organic, locally sourced seasonal menus',
-      'Dedicated allergy-safe (nut-free, gluten-free, halal, vegan) stations',
-      'Open-concept natural light architectural hall',
-      'Zero-waste composting and organic waste reclamation'
+      'Clean automated water filtration (RO + UV) units',
+      'FSSAI compliant hygienic steam-kitchen setup',
+      'Separate hand-washing stations and sanitization bays',
+      'Regular nutritional audit under Govt. Mid-Day Meal guidelines'
     ],
-    specs: '650-seat dining hall with outdoor garden patio',
+    specs: '400-seat open airy dining hall',
     image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80',
     galleryImages: []
   },
   {
     id: 'fac-wellness',
-    name: 'Student Health & Mindfulness Sanctuary',
+    name: 'Campus Health & First Aid Clinic',
     category: 'Wellness & Living',
-    tagline: 'Nurturing emotional, psychological, and physical well-being',
-    description: 'Staffed 24/7 by certified registered pediatric nurses, physical therapists, and licensed adolescent psychologists. Includes private rest suites, sensory de-escalation rooms, and a tranquil zen garden.',
+    tagline: 'Dedicated medical room and student wellness care',
+    description: 'Equipped with emergency medical beds, essential first aid supplies, regular physician visits, periodic health checkup camps, and tie-ups with Malda Medical College & Hospital.',
     features: [
-      'Full-time Pediatric Medical Staff & triage bay',
-      'Sensory calming spaces & mindfulness meditation pods',
-      'Physical therapy & athletic rehab recovery studio',
-      'Confidential counseling offices'
+      'On-call physician and trained healthcare attendant',
+      'Periodic eye, dental, and general health screening camps',
+      'Direct emergency referral link with Malda Medical College',
+      'Comfortable observation beds and medical inventory'
     ],
-    specs: '5,000 sq. ft. integrated health and wellness pavilion',
+    specs: 'Well-appointed on-campus primary healthcare bay',
     image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1000&q=80',
     galleryImages: []
   }
